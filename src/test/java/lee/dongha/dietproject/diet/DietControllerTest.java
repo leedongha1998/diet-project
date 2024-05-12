@@ -29,23 +29,23 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 class DietControllerTest {
-    @Autowired
-    DietRepository dietRepository;
-    @Autowired
-    FoodRepository foodRepository;
-    @Autowired
-    MemberRepository memberRepository;
-    @Autowired
-    DietService dietService;
-
-    @Test
-    public void dietHomeTest() throws Exception{
-        //given
-//        Member findMember = memberRepository.findMemberByUsername("이동하");
-//        LocalDate localDate = LocalDate.of(2024,03,25);
-//        Diet diet = new Diet(localDate,5.0,"메모", StatusDiet.LOW, MealTime.DINNER,findMember);
-//        //when
+//    @Autowired
+//    DietRepository dietRepository;
+//    @Autowired
+//    FoodRepository foodRepository;
+//    @Autowired
+//    MemberRepository memberRepository;
+//    @Autowired
+//    DietService dietService;
 //
-//        //then
-    }
+//    @Test
+//    public void dietHomeTest() throws Exception{
+//        //given
+////        Member findMember = memberRepository.findMemberByUsername("이동하");
+////        LocalDate localDate = LocalDate.of(2024,03,25);
+////        Diet diet = new Diet(localDate,5.0,"메모", StatusDiet.LOW, MealTime.DINNER,findMember);
+////        //when
+////
+////        //then
+//    }
 }
