@@ -45,7 +45,7 @@ class DietServiceTest {
     public void beforeTest() throws Exception{
         LocalDate localDate = LocalDate.of(2024,03,27);
         LocalDate localDate2 = LocalDate.of(2024,03,28);
-        Member findMember = memberRepository.save(new Member("이동하", "이동하", "$2a$10$.4Or0ykR5hiSdsz4QhbKFuAXjWAX7yNUO35rIBSa1iFdBB3uIKRPS", "eedongha@naver.com", "Role_User", 80.0, 183.1, 100.0, 1000,30,40,30));
+        Member findMember = memberRepository.save(new Member("이동하", "이동하", "$2a$10$.4Or0ykR5hiSdsz4QhbKFuAXjWAX7yNUO35rIBSa1iFdBB3uIKRPS", "eedongha@naver.com", "Role_User", 70.0, 80.1, 100.0, 1000,30,40,30,30,"Mail",27,85.0,"Good",5));
         Diet diet = new Diet(localDate,"image",72.4,"메모1", StatusDiet.MID, MealTime.DINNER,findMember);
         Diet diet2 = new Diet(localDate2,"image",72.4,"메모2", StatusDiet.MID, MealTime.DINNER,findMember);
         dietRepository.save(diet);
